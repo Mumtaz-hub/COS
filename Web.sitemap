@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  
+  <siteMapNode url="" title=""  description="">
+    
+    <siteMapNode url="~/Admin/Default.aspx" title="Home"  imageUrl="~/images/home.png" description="Home Page"/>
+    <siteMapNode url="~/Admin/Department.aspx" title="Department"  description="Department Settings Page"/>
+    
+    <siteMapNode url="~/Admin/Itemx.aspx"  title="Item Details"  description="Item Settings Page" >
+      <siteMapNode url="~/Admin/Item_Category.aspx" title="Item Category"  description="Item Category Settings Page" />
+      <siteMapNode url="~/Admin/ItemGroup.aspx" title="Item Group"  description="Item Group Details Settings Page" />
+      <siteMapNode url="~/Admin/ItemRate.aspx" title="Item Rate"  description="Item Rate Settings Page" />
+    </siteMapNode>
+    
+    <siteMapNode url="~/Admin/Feedback.aspx" title="Feedback Settings"  description="Feedback Settings Page" />
+    <siteMapNode url="~/Admin/ItemRequestStatus.aspx" title="Show Item Request Status"  description="Show Item Request Status Page" />
+  </siteMapNode>
+  
+</siteMap>
